@@ -1,0 +1,14 @@
+.nav-bar {
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.nav-bar__link {
+  margin: 10px;
+  text-decoration: none;
+  transition: color 0.25s linear;
+}
+
+.nav-bar__link:hover {
+  color: #66faf1;
+}
