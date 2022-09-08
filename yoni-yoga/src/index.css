@@ -2,6 +2,10 @@
 
 @import url('./blocks/body/body.css');
 
+@import url('./blocks/color-line/color-line.css');
+
+@import url('./blocks/card/card.css');
+
 @import url('./blocks/texts/text.css');
 
 @import url('./blocks/header/header.css');
@@ -9,3 +13,5 @@
 @import url('./blocks/nav/nav.css');
 
 @import url('./blocks/main/main.css');
+
+@import url('./blocks/home/home.css');

@@ -1,6 +1,9 @@
 .header {
-  padding: 45px 35px 25px 35px;
   display: flex;
-  align-items: center;
-  background-color: #1f2833;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 1;
 }

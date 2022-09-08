@@ -1,0 +1,117 @@
+.home {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cover {
+  width: 100%;
+  height: 800px;
+  background-image: url(https://hips.hearstapps.com/hmg-prod/images/701/reasons-man-make-time-yoga-main-1517321521.jpg);
+  background-position: center;
+  background-size: contain;
+  filter: grayscale(100%);
+}
+
+.cover__text-container {
+  width: fit-content;
+  margin: 0 auto 0 0;
+  padding: 150px 0 0 560px;
+}
+.cover__title {
+  margin: 0 -25px 0 0;
+  font-size: 55px;
+  font-weight: 600;
+  color: black;
+}
+
+.cover__subtitle {
+  padding: 25px 0 0 0;
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+}
+
+.home__card {
+  width: 40%;
+  filter: grayscale(100%);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.home__img {
+  width: 80%;
+  height: 400px;
+  background-image: url(https://scontent.ftlv18-1.fna.fbcdn.net/v/t39.30808-6/277462283_5034948313192935_3897364155190811110_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ytB0ywWEv8IAX8dNYZa&_nc_ht=scontent.ftlv18-1.fna&oh=00_AT__u1-uloGNKx5BAfOx6QDxJAzHUhLb5liPaoO8YAoX8g&oe=630821DA);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.page-title {
+  margin: 25px auto;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+}
+
+.about-me {
+  margin: 70px 0;
+  display: flex;
+}
+
+.about-me__img {
+  width: 40%;
+  height: 630px;
+  border: 1px solid rgb(253, 93, 93);
+}
+
+.about-me__text-container {
+  margin: 40px auto;
+}
+
+.about-me__title {
+  margin: 30px auto;
+  font-size: 50px;
+}
+
+.about-me__subtitle {
+  margin: 30px auto;
+  font-size: 40px;
+}
+
+.quote {
+  margin: 50px 0;
+  padding: 63px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(255, 233, 170);
+  background: radial-gradient(
+    circle,
+    rgba(255, 149, 62, 0.5) 0%,
+    rgba(11, 12, 16, 1) 20%
+  );
+}
+
+.quote__text {
+  padding: 30px 0;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.quote__athor {
+  padding: 0 0 30px 0;
+  font-size: 25px;
+}
+
+.contact-me {
+  background-color: aliceblue;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: space-evenly;
+}

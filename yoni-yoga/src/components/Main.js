@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 import Home from '../pages/home';
 import Yoga from '../pages/Yoga';
@@ -9,20 +9,14 @@ function Main() {
   return (
     <>
       <div className='main'>
-        <Switch>
-          <Route exact path='/'>
-            <Home />
-          </Route>
-          <Route path='/yoga'>
-            <Yoga />
-          </Route>
-          <Route path='/therapy'>
-            <Therapy />
-          </Route>
-          <Route>
+        <Routes>
+          <Route exact path='/' element={<Home />}></Route>
+          <Route path='/yoga' element={<Yoga />}></Route>
+          <Route path='/therapy' element={<Therapy />}></Route>
+          {/* <Route>
             <MartialArts path='/martialarts' />
-          </Route>
-        </Switch>
+          </Route> */}
+        </Routes>
       </div>
     </>
   );
