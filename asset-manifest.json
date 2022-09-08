@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/YoniYoga/static/css/main.3b2e4d1a.css",
+    "main.js": "/YoniYoga/static/js/main.921ce548.js",
+    "static/js/787.63841e6c.chunk.js": "/YoniYoga/static/js/787.63841e6c.chunk.js",
+    "index.html": "/YoniYoga/index.html",
+    "main.3b2e4d1a.css.map": "/YoniYoga/static/css/main.3b2e4d1a.css.map",
+    "main.921ce548.js.map": "/YoniYoga/static/js/main.921ce548.js.map",
+    "787.63841e6c.chunk.js.map": "/YoniYoga/static/js/787.63841e6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b2e4d1a.css",
+    "static/js/main.921ce548.js"
+  ]
+}
